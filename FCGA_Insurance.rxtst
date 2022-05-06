@@ -9175,7 +9175,7 @@ GLUWContractorClassCode"
 				</missingdatabinding>
 			</testmodule>
 			<testsuite
-			ReportTime="RelativeToTestSuiteStartTime"
+			ReportTime="WallClock"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
