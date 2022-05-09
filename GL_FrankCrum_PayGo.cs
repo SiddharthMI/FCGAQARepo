@@ -24,29 +24,29 @@ namespace Sid_FCGAProject
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The FinalEvidence recording.
+    ///The GL_FrankCrum_PayGo recording.
     /// </summary>
-    [TestModule("3f0caec9-00da-42a3-a630-fa98951ccd06", ModuleType.Recording, 1)]
-    public partial class FinalEvidence : ITestModule
+    [TestModule("1f56d16a-3ae8-47bf-ab74-578b6bd59b1b", ModuleType.Recording, 1)]
+    public partial class GL_FrankCrum_PayGo : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sid_FCGAProject.Project_Repository.Sid_FCGAProjectRepository repository.
         /// </summary>
         public static global::Sid_FCGAProject.Project_Repository.Sid_FCGAProjectRepository repo = global::Sid_FCGAProject.Project_Repository.Sid_FCGAProjectRepository.Instance;
 
-        static FinalEvidence instance = new FinalEvidence();
+        static GL_FrankCrum_PayGo instance = new GL_FrankCrum_PayGo();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public FinalEvidence()
+        public GL_FrankCrum_PayGo()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static FinalEvidence Instance
+        public static GL_FrankCrum_PayGo Instance
         {
             get { return instance; }
         }
@@ -79,7 +79,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.ReportFullPageScreenshot(repo.ApplicationUnderTest.SelfInfo);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.LabletxtRadioLabel_FrankcrumPaygo' at 10;17.", repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioLabel_FrankcrumPaygoInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioLabel_FrankcrumPaygo.Click("10;17");
             Delay.Milliseconds(0);
             
         }

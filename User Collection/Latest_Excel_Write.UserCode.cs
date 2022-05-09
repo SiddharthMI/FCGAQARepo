@@ -9,12 +9,13 @@
 
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Drawing;
 using System.Threading;
-using WinForms = System.Windows.Forms;
 
+using WinForms = System.Windows.Forms;
 using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
@@ -32,8 +33,9 @@ namespace Sid_FCGAProject.User_Collection
         {
             // Your recording specific initialization code goes here.
         }
-        public void TestExcelWrite (string TCID, string Product, string TestScenario, string ClassCode, string ClassDescription, string ClassGroup, string InsuredName, string ReferralReason, string InsuredAddress, string PrdPremium, string CarrierName, string MIPolicyNo, string XSPolicyNo, string StatusReason, string StartTime, string EndTime, string ExcelPath)
+        public void TestExcelWrite (string TCID, string Product, string TestScenario, string ClassCode, string ClassDescription, string ClassGroup, string InsuredName, string ReferralReason, string InsuredAddress, string PrdPremium, string CarrierName, string MIPolicyNo, string XSPolicyNo, string StatusReason, string StartTime, string EndTime, string EPath)
         {
+        	string ExcelPath = Path.Combine(Environment.CurrentDirectory, EPath);
         	Microsoft.Office.Interop.Excel.Application excelFile = new Microsoft.Office.Interop.Excel.Application();
             Microsoft.Office.Interop.Excel.Workbook excelWB= excelFile.Workbooks.Open(@ExcelPath);
             Microsoft.Office.Interop.Excel.Worksheet excelWS=(Microsoft.Office.Interop.Excel.Worksheet) excelWB.Worksheets.get_Item("Report");

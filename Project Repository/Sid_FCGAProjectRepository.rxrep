@@ -6902,6 +6902,16 @@ name="Sid_FCGAProjectRepository">
 				searchtimeout="30000ms">
 					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='15% Down / 9 Installments']/ancestor-or-self::?/td/label
 				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="363f424e-eaf2-4624-baae-6bf7fa9defd5"
+				name="LabletxtRadioLabel_FrankcrumPaygo"
+				refimgid="22bce3a4-9ba5-4735-8807-602f3ad05843"
+				robustPath=""
+				searchtimeout="1000ms">
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='FrankCrum Pay Go']/ancestor-or-self::?/td/label
+				</item>
 				<basepath>
 					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']
 				</basepath>

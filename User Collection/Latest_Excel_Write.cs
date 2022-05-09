@@ -57,7 +57,7 @@ namespace Sid_FCGAProject.User_Collection
             StartTime = "";
             EndTime = "";
             StatusReason = "Need to Analyse";
-            ExcelPath = "";
+            ExcelPath = "AutomationReport.xslx";
         }
 
         /// <summary>

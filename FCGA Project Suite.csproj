@@ -599,18 +599,6 @@
       <UserCode>true</UserCode>
       <id>a77a5ac9-b980-4ca0-b4f4-fba4a33ff68e</id>
     </Compile>
-    <Compile Include="FinalEvidence.cs">
-      <BoundTo>a43bb3e3-14e2-4e42-a7df-b4d912cce4b2</BoundTo>
-      <DependentUpon>FinalEvidence.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>ca8f5a53-6013-404f-a003-ec244c82967f</id>
-    </Compile>
-    <Compile Include="FinalEvidence.UserCode.cs">
-      <BoundTo>a43bb3e3-14e2-4e42-a7df-b4d912cce4b2</BoundTo>
-      <DependentUpon>FinalEvidence.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>d1a7f4d1-cf57-4428-bfb6-dfe10db910f1</id>
-    </Compile>
     <Compile Include="GL Product\AutomaticFormFCG1002.cs">
       <DependentUpon>AutomaticFormFCG1002.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -1486,6 +1474,18 @@
       <UserCode>true</UserCode>
       <id>98a77958-aa0a-4e62-9a32-8ccd0f671c3c</id>
       <BoundTo>81f33d55-4eb5-45ec-b3ad-a7c73208b0e5</BoundTo>
+    </Compile>
+    <Compile Include="GL_FrankCrum_PayGo.cs">
+      <BoundTo>14b08318-2a1b-4442-96ae-e4f5ae214e5f</BoundTo>
+      <DependentUpon>GL_FrankCrum_PayGo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>da28cf8e-767f-43c3-8e7d-0505f67e9eec</id>
+    </Compile>
+    <Compile Include="GL_FrankCrum_PayGo.UserCode.cs">
+      <BoundTo>14b08318-2a1b-4442-96ae-e4f5ae214e5f</BoundTo>
+      <DependentUpon>GL_FrankCrum_PayGo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>69556354-d9b7-4aa6-bdaf-bf6dcd7c87d8</id>
     </Compile>
     <Compile Include="GL_QuoteScreen_M4.cs">
       <BoundTo>762b08fc-e069-4ed9-8355-b5d142e6e2ab</BoundTo>
@@ -5669,13 +5669,6 @@
       <id>d53adf0d-db63-465c-a9dc-32dff0356df0</id>
       <recordtableid>92075a16-3683-4e15-8714-f0946cbddd92</recordtableid>
     </None>
-    <Content Include="AutmTestData.xlsx">
-      <Link>AutmTestData.xlsx</Link>
-      <BoundTo>c6b41479-8a9b-4fd2-8c66-04772623e135</BoundTo>
-      <DependentUpon>FCGA_Insurance.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>14f8846f-db9a-4639-87bd-c848a832eb8c</id>
-    </Content>
     <None Include="bin\Debug\AutmTestData.xlsx">
       <id>a86ec69c-8f38-4fa7-ba61-2ade73c4428d</id>
     </None>
@@ -5977,11 +5970,6 @@
     </None>
     <None Include="FCGA- Test Suite.sln">
       <id>07a5453c-24d8-4800-a6e6-41d5cfd60c54</id>
-    </None>
-    <None Include="FinalEvidence.rxrec">
-      <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
-      <id>a43bb3e3-14e2-4e42-a7df-b4d912cce4b2</id>
-      <recordtableid>3f0caec9-00da-42a3-a630-fa98951ccd06</recordtableid>
     </None>
     <None Include="GL Product\AutomaticFormFCG1002.rxrec">
       <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
@@ -6347,6 +6335,11 @@
       <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
       <id>81f33d55-4eb5-45ec-b3ad-a7c73208b0e5</id>
       <recordtableid>593593d5-16cb-4664-ac36-9733284812b4</recordtableid>
+    </None>
+    <None Include="GL_FrankCrum_PayGo.rxrec">
+      <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
+      <id>14b08318-2a1b-4442-96ae-e4f5ae214e5f</id>
+      <recordtableid>1f56d16a-3ae8-47bf-ab74-578b6bd59b1b</recordtableid>
     </None>
     <None Include="GL_QuoteScreen_M4.rxrec">
       <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>

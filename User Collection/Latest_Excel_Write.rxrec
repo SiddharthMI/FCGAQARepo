@@ -93,6 +93,7 @@ mode="Global">
 		<var
 		id="0eebe969-2129-47a9-b647-be6264045cb3"
 		name="ExcelPath">
+			AutomationReport.xslx
 		</var>
 	</variables>
 	<recorditems>
@@ -272,7 +273,7 @@ mode="Global">
 					</argvalue>
 				</argument>
 				<argument
-				argname="ExcelPath"
+				argname="EPath"
 				id="8671e187-3278-4ff4-b8b7-7179684d6195"
 				variable="ExcelPath">
 					<argvaluetype>

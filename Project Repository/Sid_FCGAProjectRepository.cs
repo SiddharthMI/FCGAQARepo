@@ -34026,6 +34026,7 @@ namespace Sid_FCGAProject.Project_Repository
             RepoItemInfo _payment_info_paygo10downInfo;
             RepoItemInfo _payment_info_paygo25downInfo;
             RepoItemInfo _payment_info_15down_9instInfo;
+            RepoItemInfo _labletxtradiolabel_frankcrumpaygoInfo;
 
             /// <summary>
             /// Creates a new TblPaymentInfo  folder.
@@ -34044,6 +34045,7 @@ namespace Sid_FCGAProject.Project_Repository
                 _payment_info_paygo10downInfo = new RepoItemInfo(this, "Payment_Info_PayGo10down", ".//td[@innertext='PayAsYouGo 10% Down']/ancestor-or-self::?/td/label", "", 30000, null, "ff3f452b-9f1d-4357-b022-72ff32af3b5e");
                 _payment_info_paygo25downInfo = new RepoItemInfo(this, "Payment_Info_PayGo25down", ".//td[@innertext='PayAsYouGo 25% Down']/ancestor-or-self::?/td/label", "", 30000, null, "899e5d0c-8226-4b6f-b3ba-9d2833e4117b");
                 _payment_info_15down_9instInfo = new RepoItemInfo(this, "Payment_Info_15down_9Inst", ".//td[@innertext='15% Down / 9 Installments']/ancestor-or-self::?/td/label", "", 30000, null, "a0937ed7-a8f6-4041-a3b5-2fbd92129900");
+                _labletxtradiolabel_frankcrumpaygoInfo = new RepoItemInfo(this, "LabletxtRadioLabel_FrankcrumPaygo", ".//td[@innertext='FrankCrum Pay Go']/ancestor-or-self::?/td/label", "", 1000, null, "363f424e-eaf2-4624-baae-6bf7fa9defd5");
             }
 
             /// <summary>
@@ -34331,6 +34333,30 @@ namespace Sid_FCGAProject.Project_Repository
                 get
                 {
                     return _payment_info_15down_9instInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_FrankcrumPaygo item.
+            /// </summary>
+            [RepositoryItem("363f424e-eaf2-4624-baae-6bf7fa9defd5")]
+            public virtual Ranorex.LabelTag LabletxtRadioLabel_FrankcrumPaygo
+            {
+                get
+                {
+                    return _labletxtradiolabel_frankcrumpaygoInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_FrankcrumPaygo item info.
+            /// </summary>
+            [RepositoryItemInfo("363f424e-eaf2-4624-baae-6bf7fa9defd5")]
+            public virtual RepoItemInfo LabletxtRadioLabel_FrankcrumPaygoInfo
+            {
+                get
+                {
+                    return _labletxtradiolabel_frankcrumpaygoInfo;
                 }
             }
         }

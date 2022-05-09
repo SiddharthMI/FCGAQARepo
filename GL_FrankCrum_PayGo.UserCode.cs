@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace Sid_FCGAProject
 {
-    public partial class FinalEvidence
+    public partial class GL_FrankCrum_PayGo
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
