@@ -16,6 +16,6 @@
       <string>Modules</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution FCGA- Test Suite[FCGA Project Suite[CheckPayrollLimit.rxrec[]]]]&#xD;&#xA;Solution FCGA- Test Suite\FCGA Project Suite\GL Product&#xD;&#xA;Solution FCGA- Test Suite\FCGA Project Suite\GL Product" />
+  <ProjectBrowserState value="[Solution FCGA- Test Suite[Ranorex Automation Helpers[]]]&#xD;&#xA;Solution FCGA- Test Suite\FCGA Project Suite&#xD;&#xA;Solution FCGA- Test Suite" />
   <StartupProject value="{7FE7AB79-E677-4150-8D36-4D44BA0C686A}" />
 </Properties>
