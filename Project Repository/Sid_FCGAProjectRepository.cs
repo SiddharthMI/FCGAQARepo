@@ -34027,6 +34027,10 @@ namespace Sid_FCGAProject.Project_Repository
             RepoItemInfo _payment_info_paygo25downInfo;
             RepoItemInfo _payment_info_15down_9instInfo;
             RepoItemInfo _labletxtradiolabel_frankcrumpaygoInfo;
+            RepoItemInfo _labletxtradiolabel_paygo_0downInfo;
+            RepoItemInfo _labletxtradiolabel_paygo_10downInfo;
+            RepoItemInfo _labletxtradiolabel_paygo_15downInfo;
+            RepoItemInfo _labletxtradiolabel_paygo_25downInfo;
 
             /// <summary>
             /// Creates a new TblPaymentInfo  folder.
@@ -34046,6 +34050,10 @@ namespace Sid_FCGAProject.Project_Repository
                 _payment_info_paygo25downInfo = new RepoItemInfo(this, "Payment_Info_PayGo25down", ".//td[@innertext='PayAsYouGo 25% Down']/ancestor-or-self::?/td/label", "", 30000, null, "899e5d0c-8226-4b6f-b3ba-9d2833e4117b");
                 _payment_info_15down_9instInfo = new RepoItemInfo(this, "Payment_Info_15down_9Inst", ".//td[@innertext='15% Down / 9 Installments']/ancestor-or-self::?/td/label", "", 30000, null, "a0937ed7-a8f6-4041-a3b5-2fbd92129900");
                 _labletxtradiolabel_frankcrumpaygoInfo = new RepoItemInfo(this, "LabletxtRadioLabel_FrankcrumPaygo", ".//td[@innertext='FrankCrum Pay Go']/ancestor-or-self::?/td/label", "", 1000, null, "363f424e-eaf2-4624-baae-6bf7fa9defd5");
+                _labletxtradiolabel_paygo_0downInfo = new RepoItemInfo(this, "LabletxtRadioLabel_Paygo_0down", ".//td[@innertext='PayAsYouGo 0% Down']/ancestor-or-self::?/td/label", "", 1000, null, "3c25d47e-deea-4609-895c-9a72bc4c0d38");
+                _labletxtradiolabel_paygo_10downInfo = new RepoItemInfo(this, "LabletxtRadioLabel_Paygo_10Down", ".//td[@innertext='PayAsYouGo 10% Down']/ancestor-or-self::?/td/label", "", 1000, null, "01f6c0de-b999-4aea-a5f6-cdb1bd929054");
+                _labletxtradiolabel_paygo_15downInfo = new RepoItemInfo(this, "LabletxtRadioLabel_Paygo_15down", ".//td[@innertext='PayAsYouGo 15% Down']/ancestor-or-self::?/td/label", "", 1000, null, "27314d69-9d20-46e9-80f7-6f8390f1be0b");
+                _labletxtradiolabel_paygo_25downInfo = new RepoItemInfo(this, "LabletxtRadioLabel_Paygo_25down", ".//td[@innertext='PayAsYouGo 25% Down']/ancestor-or-self::?/td/label", "", 1000, null, "1ae3f722-bd76-45d4-8beb-fa5fca7f8b6f");
             }
 
             /// <summary>
@@ -34357,6 +34365,102 @@ namespace Sid_FCGAProject.Project_Repository
                 get
                 {
                     return _labletxtradiolabel_frankcrumpaygoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_0down item.
+            /// </summary>
+            [RepositoryItem("3c25d47e-deea-4609-895c-9a72bc4c0d38")]
+            public virtual Ranorex.LabelTag LabletxtRadioLabel_Paygo_0down
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_0downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_0down item info.
+            /// </summary>
+            [RepositoryItemInfo("3c25d47e-deea-4609-895c-9a72bc4c0d38")]
+            public virtual RepoItemInfo LabletxtRadioLabel_Paygo_0downInfo
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_0downInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_10Down item.
+            /// </summary>
+            [RepositoryItem("01f6c0de-b999-4aea-a5f6-cdb1bd929054")]
+            public virtual Ranorex.LabelTag LabletxtRadioLabel_Paygo_10Down
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_10downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_10Down item info.
+            /// </summary>
+            [RepositoryItemInfo("01f6c0de-b999-4aea-a5f6-cdb1bd929054")]
+            public virtual RepoItemInfo LabletxtRadioLabel_Paygo_10DownInfo
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_10downInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_15down item.
+            /// </summary>
+            [RepositoryItem("27314d69-9d20-46e9-80f7-6f8390f1be0b")]
+            public virtual Ranorex.LabelTag LabletxtRadioLabel_Paygo_15down
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_15downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_15down item info.
+            /// </summary>
+            [RepositoryItemInfo("27314d69-9d20-46e9-80f7-6f8390f1be0b")]
+            public virtual RepoItemInfo LabletxtRadioLabel_Paygo_15downInfo
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_15downInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_25down item.
+            /// </summary>
+            [RepositoryItem("1ae3f722-bd76-45d4-8beb-fa5fca7f8b6f")]
+            public virtual Ranorex.LabelTag LabletxtRadioLabel_Paygo_25down
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_25downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LabletxtRadioLabel_Paygo_25down item info.
+            /// </summary>
+            [RepositoryItemInfo("1ae3f722-bd76-45d4-8beb-fa5fca7f8b6f")]
+            public virtual RepoItemInfo LabletxtRadioLabel_Paygo_25downInfo
+            {
+                get
+                {
+                    return _labletxtradiolabel_paygo_25downInfo;
                 }
             }
         }

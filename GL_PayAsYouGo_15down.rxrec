@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="1f56d16a-3ae8-47bf-ab74-578b6bd59b1b"
+id="b512b952-6adc-4ff6-80e6-13e9b716aedd"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="GL_FrankCrum_PayGo"
+	classname="GL_PayAsYouGo_15down"
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
@@ -30,19 +30,19 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="10;17"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="3d0840c1-03f0-45d6-abfc-7f90ef92eb0d"
-		sx="448"
-		sy="452"
+		searchpropertyid="a7858d9e-daf6-4b6a-991b-011dd452ba57"
+		sx="446"
+		sy="704"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="363f424e-eaf2-4624-baae-6bf7fa9defd5"
+			id="27314d69-9d20-46e9-80f7-6f8390f1be0b"
 			sourcename="Recorder">
 				<element
 				capabilities="webelement, labeltag"
@@ -52,7 +52,7 @@ mode="Global">
 				hasfocus="False"
 				index="1"
 				prefcap="labeltag"
-				rect="438,435,24,29"
+				rect="438,683,24,29"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -89,17 +89,17 @@ mode="Global">
 					<attribute
 					name="for"
 					type="System.String">
-						radio_913122
+						radio_913116
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[4]/?/?/label
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[8]/?/?/label
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<helperscreenshot
-			guid="e392d1ee-fd4c-4edf-9ad8-12c3d59175a7">
+			guid="a90b5742-5af7-489d-b96c-da92af22470c">
 				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABSAG0DASIA
@@ -114,16 +114,16 @@ uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKYep
 p9MIOelABRRg+lGD6UAFFGD6UYPpQAUUYPpRg+lABRRg+lGD6UAFFGD6UYPpQAUUhOOtGR6igCSi
 iigAooooAKKhvf8Ajxn/AOubfyrKsNKgubOOZ3kDNnIBGOpHpUtu9kbQpxceaTsbdFZn9hWv/PSb
 8x/hR/YVr/z0m/Mf4UXl2HyUv5vw/wCCadFYsdpHZ65bxxliChb5j7N/hW1QncmpBQtZ3uFFFFUZ
-BRRRQAUUUUAFFFFAEN7/AMeM/wD1zb+VVNNm8rS4AAWdt21R3+Y1bvf+PGf/AK5t/KqOh/NCCf4F
-wPxJNT9o2/5cv1/RlwJdNyZVT2C5oWaSOQJOB83CuOhouZ5Y5o4oYVkZ1ZjufbgDHsfWkZxc6aJS
-u3fGHxnOOM1RiVZ/+Rhtv+uZ/wDZq06ymYtrlmx6mHP6NWrUx6m9baPp/mFFFFUYBRRRQAUUUUAF
-FFFAEN7/AMeM/wD1zb+VUNMzBZwzYyjAh8dvmPNaU8fmwSR5xvUrn0yKx7mwnsrQsl+6orKMcgDL
-AZ6+9S73ubxcXTcW7a3NEur6jAUYEeTJ0+qVkN9vjsIPLuQY/sxlKMB91QvHTPf1q5YWM9rqWZJP
-NQxNh8HrleKvm1hMIi2/KIzEBk/dOOP0FUjFpJ6GLYzXE+rWrXUaIxiygToVIbHf610FZyWijV0Z
-G2rbwIoXGcg7x1rRpJWuXOXMo+S/VhRRRTMwooooAKKKTIoAWik3CjcKAFpGVXUqwDKRggjIIo3C
-jcKAM5JE0uZoZsx2rkeSxJYKe6k9ucmrz3EMcZkeVFQDOS1JPDDcxGOdFkU9iOnuPQ1B/Z1mQAyu
-yjorSuw/InFACWMv2m5uLlOYW2xof723OSPbLfoau0yNY4kCRKqIOiqMAU7cKAFopNwo3CgBaKQt
-7Gk3+xoAdTD1NFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
+BRRRQAUUUUAFFFFAEN7/AMeM/wD1zb+VU9NlZdNgjjG6Rt2M9ANx5q5e/wDHjP8A9c2/lVHQuYcn
+qBgfTJqftG3/AC5fr+jLgt5Dy9xJu/2TgUm+S3cCVt8ZOA3cfWrNRXQBtpM/3TVGJRn/AORhtv8A
+rmf/AGatOskknW7MnqYf6NWtUx6m9baPp/mFFFFUYBRRRQAUUUUAFFFFAEN7/wAeM/8A1zb+VUdN
+V47GCeMFuGDqO43GtGePzYJI843qVz6ZFZLWJtFVH1YwKc7QTtHvj5ql3vdG8OV03GTtqLKtu5uL
+woCyXMWH25YD93+PrUsup2s8n2cTCMdXaQFOPTmm20DG2njEn2j/AEmNt5P3h+7bP5U2+00TSAi3
+UhrpGYjA/d7QD+Gc1Ri1roPkKtr1oUIKmLIIOQRhq1KytP08i4Fz5zFY3kREIzhQWUDOa1alLc0q
+yT5bdEFFFFUZBRRRQAUUUm4UALRSbhRuFAC1UvY5xLFcW6CVowymMnBYHHQ+2BVrcKNwoAgsVg8g
+y2wxHMfMxjGMgf4VYrLaK7s7kGxQPasctDkZUnqVzjA9s96W4k1OcbLaJbcY5eUj9ME0AWtPIa2L
+DoZZD/4+1Wait447eBIYwdqDA9/c+9SbhQAtFJuFG4UALRTSx7D9aNx9B+dADqYepoooAKKKKACi
+iigAooooAKKKKACiiigAooooA//Z
 			</helperscreenshot>
 		</mouseitem>
 	</recorditems>
@@ -142,7 +142,7 @@ yjorSuw/InFACWMv2m5uLlOYW2xof723OSPbLfoau0yNY4kCRKqIOiqMAU7cKAFopNwo3CgBaKQt
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		GL_FrankCrum_PayGo.UserCode.cs
+		GL_PayAsYouGo_15down.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

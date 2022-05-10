@@ -6912,6 +6912,46 @@ name="Sid_FCGAProjectRepository">
 				searchtimeout="1000ms">
 					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='FrankCrum Pay Go']/ancestor-or-self::?/td/label
 				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="3c25d47e-deea-4609-895c-9a72bc4c0d38"
+				name="LabletxtRadioLabel_Paygo_0down"
+				refimgid="485a9c4b-9bdd-405f-9e92-d3a47bd9f076"
+				robustPath=""
+				searchtimeout="1000ms">
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='PayAsYouGo 0% Down']/ancestor-or-self::?/td/label
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="01f6c0de-b999-4aea-a5f6-cdb1bd929054"
+				name="LabletxtRadioLabel_Paygo_10Down"
+				refimgid="9b6f40b2-a90d-4b39-8183-69b38404a3f0"
+				robustPath=""
+				searchtimeout="1000ms">
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='PayAsYouGo 10% Down']/ancestor-or-self::?/td/label
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="27314d69-9d20-46e9-80f7-6f8390f1be0b"
+				name="LabletxtRadioLabel_Paygo_15down"
+				refimgid="e3c1807e-dfa5-42f2-8913-adc3100cd3ff"
+				robustPath=""
+				searchtimeout="1000ms">
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='PayAsYouGo 15% Down']/ancestor-or-self::?/td/label
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="1ae3f722-bd76-45d4-8beb-fa5fca7f8b6f"
+				name="LabletxtRadioLabel_Paygo_25down"
+				refimgid="7b43c6e9-7713-41a6-b661-835545dca24f"
+				robustPath=""
+				searchtimeout="1000ms">
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='PayAsYouGo 25% Down']/ancestor-or-self::?/td/label
+				</item>
 				<basepath>
 					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']
 				</basepath>

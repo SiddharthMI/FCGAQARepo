@@ -1487,6 +1487,54 @@
       <UserCode>true</UserCode>
       <id>69556354-d9b7-4aa6-bdaf-bf6dcd7c87d8</id>
     </Compile>
+    <Compile Include="GL_PayAsYouGo0down.cs">
+      <BoundTo>0f1d03ad-75ae-43fb-9806-d4ccc1a097de</BoundTo>
+      <DependentUpon>GL_PayAsYouGo0down.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b659ece3-d4f7-468e-92aa-2bc1dac26619</id>
+    </Compile>
+    <Compile Include="GL_PayAsYouGo0down.UserCode.cs">
+      <BoundTo>0f1d03ad-75ae-43fb-9806-d4ccc1a097de</BoundTo>
+      <DependentUpon>GL_PayAsYouGo0down.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8b3efd23-d7df-4ac1-87dc-a053ab3fd3cc</id>
+    </Compile>
+    <Compile Include="GL_PayAsYouGo_25Down.cs">
+      <BoundTo>4c7a8078-0082-4ed5-b95f-0af63380d2ea</BoundTo>
+      <DependentUpon>GL_PayAsYouGo_25Down.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e6d5197-4ec0-47cd-8b05-23f5d87edc13</id>
+    </Compile>
+    <Compile Include="GL_PayAsYouGo_25Down.UserCode.cs">
+      <BoundTo>4c7a8078-0082-4ed5-b95f-0af63380d2ea</BoundTo>
+      <DependentUpon>GL_PayAsYouGo_25Down.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>702154cb-6ccc-45da-8776-3bde96ec2a32</id>
+    </Compile>
+    <Compile Include="GL_PayAsYouGo_10_down.cs">
+      <BoundTo>7450b910-617d-4ca3-95e0-3583fd998356</BoundTo>
+      <DependentUpon>GL_PayAsYouGo_10_down.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>92fd8caf-2f60-46d5-bd4e-780ce095abf5</id>
+    </Compile>
+    <Compile Include="GL_PayAsYouGo_10_down.UserCode.cs">
+      <BoundTo>7450b910-617d-4ca3-95e0-3583fd998356</BoundTo>
+      <DependentUpon>GL_PayAsYouGo_10_down.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4633967b-72df-41f6-a21d-5fe3adb5a352</id>
+    </Compile>
+    <Compile Include="GL_PayAsYouGo_15down.cs">
+      <BoundTo>98ada7c3-7389-4b19-b7c6-03e338b4bd14</BoundTo>
+      <DependentUpon>GL_PayAsYouGo_15down.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>55455d50-c550-4f05-9226-dd562bab3f04</id>
+    </Compile>
+    <Compile Include="GL_PayAsYouGo_15down.UserCode.cs">
+      <BoundTo>98ada7c3-7389-4b19-b7c6-03e338b4bd14</BoundTo>
+      <DependentUpon>GL_PayAsYouGo_15down.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b135d391-efd2-4988-b1c8-50b84bdffb95</id>
+    </Compile>
     <Compile Include="GL_QuoteScreen_M4.cs">
       <BoundTo>762b08fc-e069-4ed9-8355-b5d142e6e2ab</BoundTo>
       <DependentUpon>GL_QuoteScreen_M4.rxrec</DependentUpon>
@@ -5669,6 +5717,13 @@
       <id>d53adf0d-db63-465c-a9dc-32dff0356df0</id>
       <recordtableid>92075a16-3683-4e15-8714-f0946cbddd92</recordtableid>
     </None>
+    <Content Include="AutmTestData.xlsx">
+      <Link>AutmTestData.xlsx</Link>
+      <BoundTo>c6b41479-8a9b-4fd2-8c66-04772623e135</BoundTo>
+      <DependentUpon>FCGA_Insurance.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>71744b93-e40c-4b69-8526-b4a2a976421a</id>
+    </Content>
     <None Include="bin\Debug\AutmTestData.xlsx">
       <id>a86ec69c-8f38-4fa7-ba61-2ade73c4428d</id>
     </None>
@@ -6340,6 +6395,26 @@
       <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
       <id>14b08318-2a1b-4442-96ae-e4f5ae214e5f</id>
       <recordtableid>1f56d16a-3ae8-47bf-ab74-578b6bd59b1b</recordtableid>
+    </None>
+    <None Include="GL_PayAsYouGo0down.rxrec">
+      <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
+      <id>0f1d03ad-75ae-43fb-9806-d4ccc1a097de</id>
+      <recordtableid>82fd9fca-5727-4e08-abe1-0c4ec3b3580f</recordtableid>
+    </None>
+    <None Include="GL_PayAsYouGo_25Down.rxrec">
+      <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
+      <id>4c7a8078-0082-4ed5-b95f-0af63380d2ea</id>
+      <recordtableid>2090ed16-a861-464b-9c24-754407421888</recordtableid>
+    </None>
+    <None Include="GL_PayAsYouGo_10_down.rxrec">
+      <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
+      <id>7450b910-617d-4ca3-95e0-3583fd998356</id>
+      <recordtableid>fea5eeeb-b67c-400b-917a-2fcad9f1e523</recordtableid>
+    </None>
+    <None Include="GL_PayAsYouGo_15down.rxrec">
+      <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
+      <id>98ada7c3-7389-4b19-b7c6-03e338b4bd14</id>
+      <recordtableid>b512b952-6adc-4ff6-80e6-13e9b716aedd</recordtableid>
     </None>
     <None Include="GL_QuoteScreen_M4.rxrec">
       <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="1f56d16a-3ae8-47bf-ab74-578b6bd59b1b"
+id="82fd9fca-5727-4e08-abe1-0c4ec3b3580f"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="GL_FrankCrum_PayGo"
+	classname="GL_PayAsYouGo0down"
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
@@ -30,19 +30,19 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="10;17"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="3d0840c1-03f0-45d6-abfc-7f90ef92eb0d"
-		sx="448"
-		sy="452"
+		searchpropertyid="5c43aba9-fffe-41af-97aa-de008a0d06c2"
+		sx="449"
+		sy="576"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="363f424e-eaf2-4624-baae-6bf7fa9defd5"
+			id="3c25d47e-deea-4609-895c-9a72bc4c0d38"
 			sourcename="Recorder">
 				<element
 				capabilities="webelement, labeltag"
@@ -52,7 +52,7 @@ mode="Global">
 				hasfocus="False"
 				index="1"
 				prefcap="labeltag"
-				rect="438,435,24,29"
+				rect="438,559,24,29"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -89,17 +89,17 @@ mode="Global">
 					<attribute
 					name="for"
 					type="System.String">
-						radio_913122
+						radio_913123
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[4]/?/?/label
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[6]/?/?/label
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<helperscreenshot
-			guid="e392d1ee-fd4c-4edf-9ad8-12c3d59175a7">
+			guid="d3867716-d6cf-43e4-bd1d-965491f65faf">
 				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABSAG0DASIA
@@ -114,16 +114,16 @@ uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKYep
 p9MIOelABRRg+lGD6UAFFGD6UYPpQAUUYPpRg+lABRRg+lGD6UAFFGD6UYPpQAUUhOOtGR6igCSi
 iigAooooAKKhvf8Ajxn/AOubfyrKsNKgubOOZ3kDNnIBGOpHpUtu9kbQpxceaTsbdFZn9hWv/PSb
 8x/hR/YVr/z0m/Mf4UXl2HyUv5vw/wCCadFYsdpHZ65bxxliChb5j7N/hW1QncmpBQtZ3uFFFFUZ
-BRRRQAUUUUAFFFFAEN7/AMeM/wD1zb+VVNNm8rS4AAWdt21R3+Y1bvf+PGf/AK5t/KqOh/NCCf4F
-wPxJNT9o2/5cv1/RlwJdNyZVT2C5oWaSOQJOB83CuOhouZ5Y5o4oYVkZ1ZjufbgDHsfWkZxc6aJS
-u3fGHxnOOM1RiVZ/+Rhtv+uZ/wDZq06ymYtrlmx6mHP6NWrUx6m9baPp/mFFFFUYBRRRQAUUUUAF
-FFFAEN7/AMeM/wD1zb+VUNMzBZwzYyjAh8dvmPNaU8fmwSR5xvUrn0yKx7mwnsrQsl+6orKMcgDL
-AZ6+9S73ubxcXTcW7a3NEur6jAUYEeTJ0+qVkN9vjsIPLuQY/sxlKMB91QvHTPf1q5YWM9rqWZJP
-NQxNh8HrleKvm1hMIi2/KIzEBk/dOOP0FUjFpJ6GLYzXE+rWrXUaIxiygToVIbHf610FZyWijV0Z
-G2rbwIoXGcg7x1rRpJWuXOXMo+S/VhRRRTMwooooAKKKTIoAWik3CjcKAFpGVXUqwDKRggjIIo3C
-jcKAM5JE0uZoZsx2rkeSxJYKe6k9ucmrz3EMcZkeVFQDOS1JPDDcxGOdFkU9iOnuPQ1B/Z1mQAyu
-yjorSuw/InFACWMv2m5uLlOYW2xof723OSPbLfoau0yNY4kCRKqIOiqMAU7cKAFopNwo3CgBaKQt
-7Gk3+xoAdTD1NFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
+BRRRQAUUUUAFFFFAEN7/AMeM/wD1zb+VVNNmEWlwADc7bgqjv8xq3e/8eM//AFzb+VUND+aIE9VX
+A/M1P2jb/ly/X9GXdl03JlVD6Bc0LNJHIEnA+bhXHQ0t1PJD5QijEjyPtALbR0J64PpUZkNzp7vI
+gRgWBAOcFSR1/CqMSvP/AMjDbf8AXM/+zVp1lMS2uWbHqYcn8mrVqY9TettH0/zCiiiqMAooooAK
+KKKACiiigCG9/wCPGf8A65t/KqOmq8djBPGC3DB1HcbjWjPH5sEkecb1K59MismbTri0s5Xjv5AI
+kZgoBA4GfWpd73RvBxdNxbtqXZZ45Z7PYwJ80nHf7j1QkivXj2wXO1ZbiRQpAwPmc+me1OtrO5jv
+rSdrj7RGcknnjKn3PrWqsEa7cL91y457nOf5mqMZJJ6MwtPuLm61O0uLiNEV1YR7OhCg57+9dDWe
+LSOG+so4sqkMcrAHnOSv+NaFKxUpXS8gooopkBRRRQAUUUmRQAtFJuFG4UALRSbhRuFAGe2zSrhn
+2lLKQfNtyQj5647AjA444q6J4TH5glTZjO7cMUsixyoUlVXQ9VYZBqqNMsxH5YWTZ02+c+P50ANt
+51vNRMsDboYYihbsWYg8fQDn6ir9RxRwwKVhjSNSc4RcDNP3CgBaKTcKNwoAWikLexpN/saAHUw9
+TRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 			</helperscreenshot>
 		</mouseitem>
 	</recorditems>
@@ -142,7 +142,7 @@ yjorSuw/InFACWMv2m5uLlOYW2xof723OSPbLfoau0yNY4kCRKqIOiqMAU7cKAFopNwo3CgBaKQt
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		GL_FrankCrum_PayGo.UserCode.cs
+		GL_PayAsYouGo0down.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

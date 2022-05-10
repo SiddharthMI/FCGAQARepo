@@ -81,6 +81,27 @@
 			<smartfoldernode
 			id="010bcd94-9376-4577-a0e9-3361eacebf53"
 			name="PayAsYouGo_0%_Down">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 0% Down">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="01910f4b-6f2d-4b80-b270-77a7513730b3"
@@ -1891,6 +1912,12 @@
 			id="1a10f4b8-17bd-49de-8a9a-bf66282bb4b3"
 			name="GL_Quote">
 			</smartfoldernode>
+			<testmodule
+			id="1a3b47be-3967-480f-9a26-11ebff009ab4"
+			name="GL_PayAsYouGo0down"
+			ref="82fd9fca-5727-4e08-abe1-0c4ec3b3580f"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="1a83b582-0c9a-4e46-9042-835aed6d647e"
 			name="UW_SignOut"
@@ -5097,7 +5124,58 @@ GLUWContractorClassCode"
 						</leftvalue>
 						<rightvalue>
 							<simplevaluesource
-							value="PayGo">
+							value="PayAsYouGo 0% Down">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 10% Down">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 15% Down">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 25% Down">
 							</simplevaluesource>
 						</rightvalue>
 					</condition>
@@ -6069,6 +6147,31 @@ GLUWContractorClassCode"
 			ref="ad78a157-d2c5-4a94-a962-5843836c2e05"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="5f2ec265-ea7e-4190-9de3-3f1b590b5838"
+			name="PayAsYouGo_25%_Down">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 25% Down">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="5f467861-8c70-4751-9b9f-41c2a65a93d3"
 			name="EducationalServicesIQ"
@@ -6596,6 +6699,31 @@ GLUWContractorClassCode"
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<smartfoldernode
+			id="65ae3710-81be-4d3e-a9a4-444b2dec6b75"
+			name="PayAsYouGo_15%_Down">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 15% Down">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="65aff832-9584-43db-b619-3ef84860aea8"
 			name="OtherEndtFormCG2029"
@@ -6766,6 +6894,12 @@ GLUWContractorClassCode"
 			id="6794db98-bd15-40f3-a641-17bb4b554ab3"
 			name="PayPlanSelection">
 			</smartfoldernode>
+			<testmodule
+			id="67ad14c4-6143-4440-a7e6-01ef4d8da580"
+			name="GL_FrankCrum_PayGo"
+			ref="1f56d16a-3ae8-47bf-ab74-578b6bd59b1b"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="67d00a41-9f28-4e14-b59a-50872f17f5e9"
 			name="FCG1003">
@@ -7768,6 +7902,12 @@ GLAgContractorClassCode"
 			id="770b1ec8-7682-41a1-92c0-cca6413b7d36"
 			name="Other_Endt_Forms">
 			</smartfoldernode>
+			<testmodule
+			id="77eb01e5-a10f-4086-bcd3-f122152ec9b8"
+			name="GL_PayAsYouGo_25Down"
+			ref="2090ed16-a861-464b-9c24-754407421888"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="781aaa3c-dc2e-4843-859a-aaa462c1e7f3"
 			name="Religious_Organizations">
@@ -8725,6 +8865,12 @@ GLAgContractorClassCode"
 			id="86a93e8b-21dd-404f-80ac-377d680cbdb1"
 			name="UWIn-Review">
 			</smartfoldernode>
+			<testmodule
+			id="8730bd63-2d5a-4244-954d-7ecd783ce65f"
+			name="GL_PayAsYouGo_15down"
+			ref="b512b952-6adc-4ff6-80e6-13e9b716aedd"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="87bdf16a-fe92-4a5e-92c7-f52686c0812f"
 			name="Losses_Screen">
@@ -9088,6 +9234,12 @@ GLUWContractorClassCode"
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="8a66b5d9-a259-4be4-b35f-537ef1dc3f87"
+			name="GL_PayAsYouGo_10_down"
+			ref="fea5eeeb-b67c-400b-917a-2fcad9f1e523"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="8b721ff4-6811-447a-9ed3-672a6b20af9d"
 			name="InformationIQ"
 			ref="a051cebd-1805-4e45-8d7a-9e1531bebb71"
@@ -9396,6 +9548,31 @@ GLUWContractorClassCode"
 						<rightvalue>
 							<simplevaluesource
 							value="PayAsYouGo 15% Down	">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
+			<smartfoldernode
+			id="8f76b499-e19e-4a01-bacf-c2ba927e0a0a"
+			name="PayAsYouGo_10%_Down">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 10% Down">
 							</simplevaluesource>
 						</rightvalue>
 					</condition>
@@ -11451,6 +11628,12 @@ GLUWContractorClassCode"
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			id="aea4cf28-6547-4bdf-a25b-b1613d8b89bf"
+			name="GL_PayAsYouGo0down"
+			ref="82fd9fca-5727-4e08-abe1-0c4ec3b3580f"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="aeadf0e0-d261-4dd1-8f56-04d5afe0b10c"
 			name="GL_ClassAndPayroll"
 			ref="d6229a45-b94c-4c8c-86ce-5cd3a2574dff"
@@ -11576,6 +11759,31 @@ GLAgContractorClassCode"
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="aed48a1c-cba8-41c0-b35f-38ac50ca5259"
+			name="PayAsYouGo_10%_Down">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 10% Down">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="aee85011-9fb6-4d22-aa0b-14c6a7bef5a0"
 			name="AgentEmployeeLiabilityLimit"
@@ -13351,7 +13559,7 @@ GLAgContractorClassCode"
 			datasource="GL_Automation_TestData"
 			errorbehavior="ContinueNextIteration"
 			id="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-			maxrange="1"
+			maxrange="0"
 			minrange="0"
 			name="TestCase">
 				<parameters>
@@ -14527,6 +14735,12 @@ GLAgContractorClassCode"
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			id="e0131d82-c373-4439-9188-c17a26b0200c"
+			name="GL_PayAsYouGo_10_down"
+			ref="fea5eeeb-b67c-400b-917a-2fcad9f1e523"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="e022aba0-7649-4c75-ac33-3d09c3fcb6a2"
 			name="ExterminatingandPestControlIQ"
 			ref="ad78a157-d2c5-4a94-a962-5843836c2e05"
@@ -15119,6 +15333,31 @@ GLAgContractorClassCode"
 						<rightvalue>
 							<simplevaluesource
 							value="STP">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
+			<smartfoldernode
+			id="eb8a76ae-6c69-4ad8-a40d-70b0d831fc6f"
+			name="PayAsYouGo_0%_Down">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PlaymentPlans"
+								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PayAsYouGo 0% Down">
 							</simplevaluesource>
 						</rightvalue>
 					</condition>
@@ -18918,6 +19157,34 @@ GLAgContractorClassCode"
 											<smartfoldernode
 											id="010bcd94-9376-4577-a0e9-3361eacebf53"
 											name="PayAsYouGo_0%_Down">
+												<testmodule
+												id="1a3b47be-3967-480f-9a26-11ebff009ab4"
+												name="GL_PayAsYouGo0down">
+												</testmodule>
+											</smartfoldernode>
+											<smartfoldernode
+											id="aed48a1c-cba8-41c0-b35f-38ac50ca5259"
+											name="PayAsYouGo_10%_Down">
+												<testmodule
+												id="8a66b5d9-a259-4be4-b35f-537ef1dc3f87"
+												name="GL_PayAsYouGo_10_down">
+												</testmodule>
+											</smartfoldernode>
+											<smartfoldernode
+											id="65ae3710-81be-4d3e-a9a4-444b2dec6b75"
+											name="PayAsYouGo_15%_Down">
+												<testmodule
+												id="8730bd63-2d5a-4244-954d-7ecd783ce65f"
+												name="GL_PayAsYouGo_15down">
+												</testmodule>
+											</smartfoldernode>
+											<smartfoldernode
+											id="5f2ec265-ea7e-4190-9de3-3f1b590b5838"
+											name="PayAsYouGo_25%_Down">
+												<testmodule
+												id="77eb01e5-a10f-4086-bcd3-f122152ec9b8"
+												name="GL_PayAsYouGo_25Down">
+												</testmodule>
 											</smartfoldernode>
 										</smartfoldernode>
 										<smartfoldernode
@@ -19559,6 +19826,10 @@ GLAgContractorClassCode"
 										<smartfoldernode
 										id="50677d7e-15f4-449d-81f5-d13316867688"
 										name="Frankcrum_PayGo">
+											<testmodule
+											id="67ad14c4-6143-4440-a7e6-01ef4d8da580"
+											name="GL_FrankCrum_PayGo">
+											</testmodule>
 										</smartfoldernode>
 										<smartfoldernode
 										id="14ea6359-7677-4f11-9edb-a8610de108ac"
@@ -19566,6 +19837,22 @@ GLAgContractorClassCode"
 											<testmodule
 											id="a1ed0a14-16c8-4872-9c78-66d59527a615"
 											name="GL_PremiumFinancedPlan">
+											</testmodule>
+										</smartfoldernode>
+										<smartfoldernode
+										id="eb8a76ae-6c69-4ad8-a40d-70b0d831fc6f"
+										name="PayAsYouGo_0%_Down">
+											<testmodule
+											id="aea4cf28-6547-4bdf-a25b-b1613d8b89bf"
+											name="GL_PayAsYouGo0down">
+											</testmodule>
+										</smartfoldernode>
+										<smartfoldernode
+										id="8f76b499-e19e-4a01-bacf-c2ba927e0a0a"
+										name="PayAsYouGo_10%_Down">
+											<testmodule
+											id="e0131d82-c373-4439-9188-c17a26b0200c"
+											name="GL_PayAsYouGo_10_down">
 											</testmodule>
 										</smartfoldernode>
 									</smartfoldernode>
@@ -20992,6 +21279,9 @@ GLAgContractorClassCode"
 			id="5af38179-2891-4356-b489-dee97d54195f">
 			</testcontainer>
 			<testcontainer
+			id="5f2ec265-ea7e-4190-9de3-3f1b590b5838">
+			</testcontainer>
+			<testcontainer
 			id="5fb40155-1c1a-4e7b-aa00-df0277eaf92c">
 			</testcontainer>
 			<testcontainer
@@ -20999,6 +21289,9 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="61cf6c48-162a-4369-bdeb-9525cec830a6">
+			</testcontainer>
+			<testcontainer
+			id="65ae3710-81be-4d3e-a9a4-444b2dec6b75">
 			</testcontainer>
 			<testcontainer
 			id="66131354-f24e-409f-91dd-ecaa96c2cb93">
@@ -21055,6 +21348,9 @@ GLAgContractorClassCode"
 			id="8e6d5285-7a6f-4fd1-9b27-8c635f26e209">
 			</testcontainer>
 			<testcontainer
+			id="8f76b499-e19e-4a01-bacf-c2ba927e0a0a">
+			</testcontainer>
+			<testcontainer
 			id="91ac2428-28b2-45b0-9c7a-3ad928fa67f0">
 			</testcontainer>
 			<testcontainer
@@ -21095,6 +21391,9 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="ad795229-5941-47d9-ad1d-32dcbff3b27f">
+			</testcontainer>
+			<testcontainer
+			id="aed48a1c-cba8-41c0-b35f-38ac50ca5259">
 			</testcontainer>
 			<testcontainer
 			id="b1d034fd-0d82-49af-98f1-83a3bbaaef27">
@@ -21164,6 +21463,9 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="ea6ba491-4071-4ab4-a79f-c24d4e2864d3">
+			</testcontainer>
+			<testcontainer
+			id="eb8a76ae-6c69-4ad8-a40d-70b0d831fc6f">
 			</testcontainer>
 			<testcontainer
 			id="eba62603-387a-45b9-9e74-9fbf8470d74e">

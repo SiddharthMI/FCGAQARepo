@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="1f56d16a-3ae8-47bf-ab74-578b6bd59b1b"
+id="fea5eeeb-b67c-400b-917a-2fcad9f1e523"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="GL_FrankCrum_PayGo"
+	classname="GL_PayAsYouGo_10_down"
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
@@ -30,19 +30,19 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="10;17"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="3d0840c1-03f0-45d6-abfc-7f90ef92eb0d"
-		sx="448"
-		sy="452"
+		searchpropertyid="9236e51a-b6d0-44c3-967b-18f20987ac76"
+		sx="449"
+		sy="638"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="363f424e-eaf2-4624-baae-6bf7fa9defd5"
+			id="01f6c0de-b999-4aea-a5f6-cdb1bd929054"
 			sourcename="Recorder">
 				<element
 				capabilities="webelement, labeltag"
@@ -52,7 +52,7 @@ mode="Global">
 				hasfocus="False"
 				index="1"
 				prefcap="labeltag"
-				rect="438,435,24,29"
+				rect="438,621,24,29"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -89,17 +89,17 @@ mode="Global">
 					<attribute
 					name="for"
 					type="System.String">
-						radio_913122
+						radio_913118
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[4]/?/?/label
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[7]/?/?/label
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<helperscreenshot
-			guid="e392d1ee-fd4c-4edf-9ad8-12c3d59175a7">
+			guid="1ba93ca6-f8e1-40b6-8146-5f93c48dd2d9">
 				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABSAG0DASIA
@@ -110,20 +110,20 @@ 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
-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
+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
+oAKKKKACiiigD//Z
 			</helperscreenshot>
 		</mouseitem>
 	</recorditems>
@@ -142,7 +142,7 @@ yjorSuw/InFACWMv2m5uLlOYW2xof723OSPbLfoau0yNY4kCRKqIOiqMAU7cKAFopNwo3CgBaKQt
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		GL_FrankCrum_PayGo.UserCode.cs
+		GL_PayAsYouGo_10_down.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
