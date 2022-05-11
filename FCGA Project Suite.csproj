@@ -1475,6 +1475,18 @@
       <id>98a77958-aa0a-4e62-9a32-8ccd0f671c3c</id>
       <BoundTo>81f33d55-4eb5-45ec-b3ad-a7c73208b0e5</BoundTo>
     </Compile>
+    <Compile Include="GL_Ag_ClassandPayroll.cs">
+      <BoundTo>a0193a89-99d4-4c13-bcc1-5cc1dc32879c</BoundTo>
+      <DependentUpon>GL_Ag_ClassandPayroll.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3f164c3-f6cf-463c-960a-97018a40c7a9</id>
+    </Compile>
+    <Compile Include="GL_Ag_ClassandPayroll.UserCode.cs">
+      <BoundTo>a0193a89-99d4-4c13-bcc1-5cc1dc32879c</BoundTo>
+      <DependentUpon>GL_Ag_ClassandPayroll.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bedc7ded-b23e-4df7-b333-dfde848044e8</id>
+    </Compile>
     <Compile Include="GL_FrankCrum_PayGo.cs">
       <BoundTo>14b08318-2a1b-4442-96ae-e4f5ae214e5f</BoundTo>
       <DependentUpon>GL_FrankCrum_PayGo.rxrec</DependentUpon>
@@ -6390,6 +6402,11 @@
       <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
       <id>81f33d55-4eb5-45ec-b3ad-a7c73208b0e5</id>
       <recordtableid>593593d5-16cb-4664-ac36-9733284812b4</recordtableid>
+    </None>
+    <None Include="GL_Ag_ClassandPayroll.rxrec">
+      <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
+      <id>a0193a89-99d4-4c13-bcc1-5cc1dc32879c</id>
+      <recordtableid>4fcae27a-e002-4c06-a3f2-2ee30a543e34</recordtableid>
     </None>
     <None Include="GL_FrankCrum_PayGo.rxrec">
       <BoundTo>559f7a73-de74-482d-96e8-2b042b30f078</BoundTo>
