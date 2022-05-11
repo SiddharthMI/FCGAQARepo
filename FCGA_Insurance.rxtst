@@ -3674,13 +3674,6 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="
-GLUWContractorClassCode"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="70750872-c5e0-4def-aa48-4f1d851e9ac9"
-					variablename="GLUWContractorClassCode">
-					</var>
-					<var
 					dataname="GLUWPartAdmEmp"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="2b58d369-fc6f-4d30-ae3f-827ab83e6e4d"
@@ -3783,6 +3776,15 @@ GLUWContractorClassCode"
 					variablename="GLUWPartOtherEmp">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="
+GLUWContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="70750872-c5e0-4def-aa48-4f1d851e9ac9"
+					variablename="GLUWContractorClassCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="3934ffa4-6f41-4953-858d-d82c588357a2"
@@ -7785,34 +7787,6 @@ GLUWContractorClassCode"
 					variablename="GL_ClassDescription">
 					</var>
 					<var
-					dataname="
-GLAgPartAdmEmp"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="b07c9628-7eb7-4436-808e-edbd2e61bb06"
-					variablename="GLAgPartAdmEmp">
-					</var>
-					<var
-					dataname="
-GLAgFullScaleEmp"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="7114d012-2135-4776-87a9-b7277218fdf5"
-					variablename="GLAgFullScaleEmp">
-					</var>
-					<var
-					dataname="
-GLAgTotOtherPayroll"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="094698a1-0c3d-4f3f-81f4-23914d685e31"
-					variablename="GLAgTotOtherPayroll">
-					</var>
-					<var
-					dataname="
-GLAgContractorClassCode"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="424aa889-66b1-4bbb-8356-52624af3059a"
-					variablename="GLAgContractorClassCode">
-					</var>
-					<var
 					dataname="GLAgContractorPercent"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="809fee8a-dce6-467b-b2f6-b5ae8dae5e6e"
@@ -7897,6 +7871,36 @@ GLAgContractorClassCode"
 					variablename="GLAgPartOtherEmp">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="
+GLAgPartAdmEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="b07c9628-7eb7-4436-808e-edbd2e61bb06"
+					variablename="GLAgPartAdmEmp">
+					</var>
+					<var
+					dataname="
+GLAgFullScaleEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="7114d012-2135-4776-87a9-b7277218fdf5"
+					variablename="GLAgFullScaleEmp">
+					</var>
+					<var
+					dataname="
+GLAgTotOtherPayroll"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="094698a1-0c3d-4f3f-81f4-23914d685e31"
+					variablename="GLAgTotOtherPayroll">
+					</var>
+					<var
+					dataname="
+GLAgContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="424aa889-66b1-4bbb-8356-52624af3059a"
+					variablename="GLAgContractorClassCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="770b1ec8-7682-41a1-92c0-cca6413b7d36"
@@ -8998,13 +9002,6 @@ GLAgContractorClassCode"
 					variablename="ExcelPath">
 					</var>
 					<var
-					dataname="
-GLUWContractorClassCode"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="36e447c8-7dcd-4072-96c6-ceaf3b839874"
-					variablename="ClassCode">
-					</var>
-					<var
 					dataname="CarrierSelection"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="4698a0f9-a61f-4b6e-b594-ded5ded3a184"
@@ -9036,6 +9033,13 @@ GLUWContractorClassCode"
 					</var>
 				</databinding>
 				<missingdatabinding>
+					<var
+					dataname="
+GLUWContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="36e447c8-7dcd-4072-96c6-ceaf3b839874"
+					variablename="ClassCode">
+					</var>
 					<var
 					dataname="AgentIndustryGroup"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
@@ -11646,34 +11650,6 @@ GLUWContractorClassCode"
 					variablename="GL_ClassDescription">
 					</var>
 					<var
-					dataname="
-GLAgPartAdmEmp"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="b07c9628-7eb7-4436-808e-edbd2e61bb06"
-					variablename="GLAgPartAdmEmp">
-					</var>
-					<var
-					dataname="
-GLAgFullScaleEmp"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="7114d012-2135-4776-87a9-b7277218fdf5"
-					variablename="GLAgFullScaleEmp">
-					</var>
-					<var
-					dataname="
-GLAgTotOtherPayroll"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="094698a1-0c3d-4f3f-81f4-23914d685e31"
-					variablename="GLAgTotOtherPayroll">
-					</var>
-					<var
-					dataname="
-GLAgContractorClassCode"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="424aa889-66b1-4bbb-8356-52624af3059a"
-					variablename="GLAgContractorClassCode">
-					</var>
-					<var
 					dataname="GLAgContractorPercent"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="809fee8a-dce6-467b-b2f6-b5ae8dae5e6e"
@@ -11757,7 +11733,65 @@ GLAgContractorClassCode"
 					variableid="3e9e8003-d543-48dc-8a08-7da21efe31f8"
 					variablename="GLAgPartOtherEmp">
 					</var>
+					<var
+					dataname="
+GLAgContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="424aa889-66b1-4bbb-8356-52624af3059a"
+					variablename="GLAgContractorClassCode">
+					</var>
+					<var
+					dataname="
+GLAgPartAdmEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="b07c9628-7eb7-4436-808e-edbd2e61bb06"
+					variablename="GLAgPartAdmEmp">
+					</var>
+					<var
+					dataname="
+GLAgFullScaleEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="7114d012-2135-4776-87a9-b7277218fdf5"
+					variablename="GLAgFullScaleEmp">
+					</var>
+					<var
+					dataname="
+GLAgTotOtherPayroll"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="094698a1-0c3d-4f3f-81f4-23914d685e31"
+					variablename="GLAgTotOtherPayroll">
+					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="
+GLAgPartAdmEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="b07c9628-7eb7-4436-808e-edbd2e61bb06"
+					variablename="GLAgPartAdmEmp">
+					</var>
+					<var
+					dataname="
+GLAgFullScaleEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="7114d012-2135-4776-87a9-b7277218fdf5"
+					variablename="GLAgFullScaleEmp">
+					</var>
+					<var
+					dataname="
+GLAgTotOtherPayroll"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="094698a1-0c3d-4f3f-81f4-23914d685e31"
+					variablename="GLAgTotOtherPayroll">
+					</var>
+					<var
+					dataname="
+GLAgContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="424aa889-66b1-4bbb-8356-52624af3059a"
+					variablename="GLAgContractorClassCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="aed48a1c-cba8-41c0-b35f-38ac50ca5259"
@@ -20819,10 +20853,10 @@ GLAgContractorClassCode"
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="AutmTestData1.xlsx"
+		filename="AutmTestData.xlsx"
 		id="fcf08db0-3207-4af7-be37-c5704c55094d"
 		includefile="Checked"
-		lastknownrowcount="7"
+		lastknownrowcount="28"
 		name="WC_Automation_TestData"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="WC Autm TD"
