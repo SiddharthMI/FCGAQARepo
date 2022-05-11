@@ -7870,6 +7870,34 @@ GLUWContractorClassCode"
 					variableid="3e9e8003-d543-48dc-8a08-7da21efe31f8"
 					variablename="GLAgPartOtherEmp">
 					</var>
+					<var
+					dataname="
+GLAgContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="424aa889-66b1-4bbb-8356-52624af3059a"
+					variablename="GLAgContractorClassCode">
+					</var>
+					<var
+					dataname="
+GLAgPartAdmEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="b07c9628-7eb7-4436-808e-edbd2e61bb06"
+					variablename="GLAgPartAdmEmp">
+					</var>
+					<var
+					dataname="
+GLAgFullScaleEmp"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="7114d012-2135-4776-87a9-b7277218fdf5"
+					variablename="GLAgFullScaleEmp">
+					</var>
+					<var
+					dataname="
+GLAgTotOtherPayroll"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="094698a1-0c3d-4f3f-81f4-23914d685e31"
+					variablename="GLAgTotOtherPayroll">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
