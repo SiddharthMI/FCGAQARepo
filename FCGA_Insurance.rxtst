@@ -3775,6 +3775,13 @@
 					variableid="ec21cef5-6488-4abf-8061-c2e07519d6a9"
 					variablename="GLUWPartOtherEmp">
 					</var>
+					<var
+					dataname="
+GLUWContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="70750872-c5e0-4def-aa48-4f1d851e9ac9"
+					variablename="GLUWContractorClassCode">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
